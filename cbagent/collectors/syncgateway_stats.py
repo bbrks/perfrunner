@@ -28,7 +28,7 @@ class SyncGatewayStats(Collector):
         "syncgateway__global__resource_utilization__go_memstats_pausetotalns",
         "syncgateway__global__resource_utilization__error_count",
         "syncgateway__global__resource_utilization__warn_count",
-        
+
         "syncgateway__per_db__db__cache__rev_cache_hits",
         "syncgateway__per_db__db__cache__rev_cache_misses",
         "syncgateway__per_db__db__cache__rev_cache_bypass",
@@ -84,12 +84,12 @@ class SyncGatewayStats(Collector):
         "syncgateway__per_db__db__delta_sync__delta_cache_hit",
         "syncgateway__per_db__db__delta_sync__delta_cache_miss",
         "syncgateway__per_db__db__delta_sync__delta_push_doc_count",
-        
+
         "syncgateway__per_db__db__shared_bucket_import__import_count",
         "syncgateway__per_db__db__shared_bucket_import__import_cancel_cas",
         "syncgateway__per_db__db__shared_bucket_import__import_error_count",
         "syncgateway__per_db__db__shared_bucket_import__import_processing_time",
-        
+
         "syncgateway__per_db__db__cbl_replication_push__doc_push_count",
         "syncgateway__per_db__db__cbl_replication_push__write_processing_time",
         "syncgateway__per_db__db__cbl_replication_push__sync_function_time",
@@ -99,7 +99,7 @@ class SyncGatewayStats(Collector):
         "syncgateway__per_db__db__cbl_replication_push__attachment_push_count",
         "syncgateway__per_db__db__cbl_replication_push__attachment_push_bytes",
         "syncgateway__per_db__db__cbl_replication_push__conflict_write_count",
-        
+
         "syncgateway__per_db__db__cbl_replication_pull__num_pull_repl_active_one_shot",
         "syncgateway__per_db__db__cbl_replication_pull__num_pull_repl_active_continuous",
         "syncgateway__per_db__db__cbl_replication_pull__num_pull_repl_total_one_shot",
@@ -114,7 +114,7 @@ class SyncGatewayStats(Collector):
         "syncgateway__per_db__db__cbl_replication_pull__max_pending",
         "syncgateway__per_db__db__cbl_replication_pull__attachment_pull_count",
         "syncgateway__per_db__db__cbl_replication_pull__attachment_pull_bytes",
-        
+
         "syncgateway__per_db__db__security__num_docs_rejected",
         "syncgateway__per_db__db__security__num_access_errors",
         "syncgateway__per_db__db__security__auth_success_count",
